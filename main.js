@@ -87,6 +87,7 @@ tBtn2.addEventListener('click', () => {
   tBtn3.classList.add('d-none');
   tBtn4.classList.add('d-none');
   tBtn5.classList.add('d-none');
+  count = 1
 })
 
 tBtn3.addEventListener('click', () => {
@@ -101,6 +102,7 @@ tBtn3.addEventListener('click', () => {
   tBtn3.classList.add('d-none');
   tBtn4.classList.remove('d-none');
   tBtn5.classList.remove('d-none');
+  count = 2
 })
 
 tBtn4.addEventListener('click', () => {
@@ -115,6 +117,7 @@ tBtn4.addEventListener('click', () => {
   tBtn3.classList.remove('d-none');
   tBtn4.classList.add('d-none');
   tBtn5.classList.add('d-none');
+  count = 1
 })
 
 tBtn5.addEventListener('click', () => {
