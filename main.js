@@ -102,7 +102,7 @@ tBtn3.addEventListener('click', () => {
   tBtn3.classList.add('d-none');
   tBtn4.classList.remove('d-none');
   tBtn5.classList.remove('d-none');
-  count = 2
+  count = 1
 })
 
 tBtn4.addEventListener('click', () => {
